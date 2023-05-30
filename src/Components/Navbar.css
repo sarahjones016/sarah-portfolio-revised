@@ -1,0 +1,67 @@
+.hamburgerMenuDiv {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    padding: 4px;
+}
+
+.hamburgerMenuDiv svg {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.hamburgerMenuDiv svg:hover {
+    color: rgba(255, 255, 255);
+}
+
+.navBar {
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: left;
+    padding: 1%;
+    width: 25vw;
+    height: 98vh;
+}
+
+.options li {
+    font-size: 18px;
+    /* font-weight: bold; */
+    padding: 5%
+}
+
+.navButton {
+    text-align: left;
+    padding: 1%;
+    width: 25vw;
+}
+
+.navButtonTwo {
+    background-color:  rgba(255, 255, 255, 0.9);
+    text-align: left;
+    padding: 1%;
+    width: 25vw;
+}
+
+/* tablet */
+@media all and (max-width: 991px) {
+    
+}
+
+/* phone */
+@media all and (max-width: 767px) {
+    .navBar {
+        background-color: rgba(255, 255, 255);
+        width: 85vw;
+    }
+
+    .navButton {
+        text-align: left;
+        padding: 1%;
+        width: 85vw;
+    }
+    
+    .navButtonTwo {
+        background-color:  rgba(255, 255, 255);
+        text-align: left;
+        padding: 1%;
+        width: 85vw;
+    }
+}
