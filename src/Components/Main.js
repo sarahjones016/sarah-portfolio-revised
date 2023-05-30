@@ -4,6 +4,9 @@ import lemon from '../Assets/lemon.mp4'
 import { BsFillArrowDownCircleFill } from "react-icons/bs";
 import { IconContext } from "react-icons";
 import Navbar from './Navbar';
+import Projects from './Projects';
+import Work from './Work';
+import Contact from './Contact';
 
 function Main() {
   return (
@@ -21,6 +24,9 @@ function Main() {
                   <BsFillArrowDownCircleFill />
               </IconContext.Provider>
             </div>  
+            <Projects />
+            <Work />
+            <Contact />
         </div>
         
     </div>
