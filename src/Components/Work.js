@@ -3,7 +3,7 @@ import './Work.css';
 
 function Work() {
   return (
-    <div className='work'>
+    <div id='work' className='work'>
         <div className='workContent'>
             <h1>WORK EXPERIENCE</h1>
         </div>

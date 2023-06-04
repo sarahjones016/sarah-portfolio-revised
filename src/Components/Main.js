@@ -10,7 +10,7 @@ import Contact from './Contact';
 
 function Main() {
   return (
-    <div className='main'>
+    <div id='main' className='main'>
         <div className='overlay'></div>
         <video src={lemon} autoPlay loop muted />
         <div className='content'>

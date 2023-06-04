@@ -29,10 +29,18 @@ function Navbar() {
             
             {showNavBar ? <div className='navBar'>
                 <ul className='options'>
-                    <li>Homepage</li>
-                    <li>Portfolio</li>
-                    <li>Work Experience</li>
-                    <li>Contact</li>
+                    <li>
+                        <a href='/#main'>Homepage</a>
+                    </li>
+                    <li>
+                        <a href="/#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href='/#work'>Work Experience</a>
+                    </li>
+                    <li>
+                        <a href='/#contact'>Contact</a>
+                    </li>
                 </ul>
             </div> : null}
             
