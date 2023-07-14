@@ -1,5 +1,5 @@
 import './Main.css';
-import React from 'react'
+import React, {useState} from 'react'
 import lemon from '../Assets/lemon.mp4'
 import { BsFillArrowDownCircleFill } from "react-icons/bs";
 import { IconContext } from "react-icons";
@@ -20,9 +20,11 @@ function Main() {
               <h3 className='homepageTitle'>Brooklyn Based Software Engineer</h3>
             </div>
             <div className='downArrowDiv'>
-              <IconContext.Provider className='downArrow' value={{ size: "25px"}}>
-                  <BsFillArrowDownCircleFill />
-              </IconContext.Provider>
+              <a href='/#portfolio'>
+                <IconContext.Provider className='downArrow' value={{ size: "25px"}}>
+                    <BsFillArrowDownCircleFill />
+                </IconContext.Provider>
+              </a>
             </div>  
             <Projects />
             <Work />

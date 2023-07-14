@@ -7,3 +7,25 @@
 .portfolioContent {
     height: 100%;
 }
+
+.upArrowDiv {
+    position: fixed;
+    width: 100%;
+    left: 48%;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+/* tablet */
+@media all and (max-width: 991px) {
+    .upArrowDiv{
+        left: 45%;
+    }
+}
+
+/* phone */
+@media all and (max-width: 767px) {
+    .upArrowDiv{
+        left: 41%;
+    }
+}
