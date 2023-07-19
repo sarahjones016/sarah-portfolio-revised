@@ -13,7 +13,7 @@ function Main() {
     <div id='main' className='main'>
         <div className='overlay'></div>
         <video src={lemon} autoPlay loop muted />
-        <div className='content'>
+     
             <Navbar />
             <div className='textContent'>
               <h1 className='homepageName'>SARAH JONES</h1>
@@ -26,11 +26,11 @@ function Main() {
                 </IconContext.Provider>
               </a>
             </div>  
-            <Projects />
-            <Work />
-            <Contact />
-        </div>
-        
+            <div className='below-fold'>
+              <Projects />
+              <Work />
+              <Contact />
+            </div>
     </div>
   )
 }

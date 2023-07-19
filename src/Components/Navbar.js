@@ -15,6 +15,10 @@ function Navbar() {
         setNavButton(!navButton)
     } 
 
+    function closeNavBar() {
+        setShowNavBar(false)
+    }
+
     return (
         <div className='hamburgerMenuDiv'>
             {showNavBar ? <div className='navButtonTwo'>
@@ -30,16 +34,16 @@ function Navbar() {
             {showNavBar ? <div className='navBar'>
                 <ul className='options'>
                     <li>
-                        <a href='/#main'>Homepage</a>
+                        <a onClick={closeNavBar} href='/#main'>Homepage</a>
                     </li>
                     <li>
-                        <a href="/#portfolio">Portfolio</a>
+                        <a onClick={closeNavBar} href="/#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a href='/#work'>Work Experience</a>
+                        <a onClick={closeNavBar} href='/#work'>Work Experience</a>
                     </li>
                     <li>
-                        <a href='/#contact'>Contact</a>
+                        <a onClick={closeNavBar} href='/#contact'>Contact</a>
                     </li>
                 </ul>
             </div> : null}
