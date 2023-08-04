@@ -26,11 +26,8 @@ h1 {
     height: 100%;
     margin: 25px;
     border-radius: 25px;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
 }
+
 h6 {
     text-align: left;
     padding-top: 5px;
@@ -56,3 +53,93 @@ li {
     font-size: 13px;
     padding-top: 7px;
 }
+
+
+/* tablet */
+@media all and (max-width: 991px) {
+    .work-container {
+        width: 75%;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h4 {
+        font-size: 23px;
+    }
+
+    .title h4 {
+        padding-top: 6px;
+    }
+
+    .date {
+        font-size: 18px;
+    }
+
+    h6 {
+        font-size: 13px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+}
+
+/* phone */
+@media all and (max-width: 767px) {
+    .work-container {
+        width: 85%;
+        margin: 25px;
+    }
+
+    .bubble {
+        padding: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .title h4 {
+        padding-top: 6px;
+    }
+
+    .date {
+        font-size: 14px;
+    }
+
+    .work {
+        height: 1000px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    h6 {
+        font-size: 10.25px;
+        padding-top: 5px;
+        text-align: left;
+    }
+
+    li {
+        font-size: 13px;
+    }
+
+}
+

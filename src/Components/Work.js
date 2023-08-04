@@ -11,7 +11,7 @@ function Work() {
               <div className='bubble'>
                 <div className='title'>
                    <h4>Senior Customer Success Manager @ Wunderkind</h4>
-                    <h4>Jan 2023 - Feb 2023</h4>
+                  <h4 className='date'>Jan 2023 - Feb 2023</h4>
                 </div>
                 <h6>New York, New York • wunderkind.co</h6>
                 <div className='details'>
@@ -23,7 +23,7 @@ function Work() {
               <div className='bubble'>
                 <div className='title'>
                   <h4>Customer Success Manager @ Wunderkind</h4>
-                  <h4>Oct 2021 - Jan 2023</h4>
+                  <h4 className='date'>Oct 2021 - Jan 2023</h4>
                 </div>
                 <h6>New York, New York • wunderkind.co</h6>
                 <div className='details'>
@@ -38,7 +38,7 @@ function Work() {
               <div className='bubble'>
                 <div className='title'>
                   <h4>Customer Success Associate @ Wunderkind</h4>
-                  <h4>Nov 2020 - Oct 2021</h4>
+                  <h4 className='date'>Nov 2020 - Oct 2021</h4>
                 </div>
                 <h6>New York, New York • wunderkind.co</h6>
                 <div className='details'>
