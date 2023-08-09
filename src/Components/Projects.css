@@ -29,6 +29,7 @@ h1 {
 /* phone */
 @media all and (max-width: 767px) {
     .upArrowDiv{
-        left: 41%;
+        left: 45%;
+        bottom: 8px;
     }
 }

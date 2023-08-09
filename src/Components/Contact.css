@@ -33,3 +33,28 @@ h1 {
 .container-holder {
     width: 100%;
 }
+
+/* tablet */
+@media all and (max-width: 991px) {
+    .icon-holder {
+        width: 75%;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+}
+
+/* phone */
+@media all and (max-width: 767px) {
+    .icon-holder {
+        width: 80%;
+        margin: 25px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+}
