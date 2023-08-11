@@ -1,5 +1,5 @@
 import './Main.css';
-import React, {useState} from 'react'
+import React from 'react'
 import lemon from '../Assets/lemon.mp4'
 import { BsFillArrowDownCircleFill } from "react-icons/bs";
 import { IconContext } from "react-icons";
