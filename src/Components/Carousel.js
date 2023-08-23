@@ -9,7 +9,9 @@ function Carousel({data}) {
   return (
     <div className="carousel-holder">
         <h2>{data.title}</h2>
-        <img src={data.image} className='portfolio-picture'></img>
+        <div className='pic-holder'>
+          <img src={data.image} className='portfolio-picture'></img>
+        </div>
         <p>{data.description}</p>
         <div className="portfolio-icon-holder">
           <div className='port-icon'>
