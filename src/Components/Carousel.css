@@ -10,6 +10,8 @@
 .carousel-holder p {
     font-size: 13px;
     padding: 10px;
+    text-align: left;
+
     /* padding-bottom: 20px; */
 } 
 
@@ -42,7 +44,7 @@
     }
 
     .portfolio-picture {
-        width: 125%;
+        /* width: 125%; */
         padding: 0px;
     }
 
@@ -56,3 +58,12 @@
     } 
 }
 
+/* THIN phone */
+@media all and (max-width: 430px) {
+
+    .portfolio-picture {
+        width: 125%;
+        padding: 0px;
+    }
+
+}

@@ -54,6 +54,15 @@ li {
     padding-top: 7px;
 }
 
+/* WIDE tablet */
+@media all and (max-width: 1210px) {
+    .title {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+}
+
 
 /* tablet */
 @media all and (max-width: 991px) {
@@ -61,11 +70,11 @@ li {
         width: 75%;
     }
 
-    .title {
+    /* .title {
         display: flex;
         flex-direction: column;
         text-align: left;
-    }
+    } */
 
     h1 {
         font-size: 50px;

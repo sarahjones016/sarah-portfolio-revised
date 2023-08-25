@@ -33,9 +33,9 @@ function Navbar() {
             
             {showNavBar ? <div className='navBar'>
                 <ul className='options'>
-                    <li>
+                    {/* <li>
                         <a onClick={closeNavBar} href='/#main'>Homepage</a>
-                    </li>
+                    </li> */}
                     <li>
                         <a onClick={closeNavBar} href="/#portfolio">Portfolio</a>
                     </li>
